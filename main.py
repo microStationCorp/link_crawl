@@ -45,6 +45,6 @@ while len(new_urls):
             "broken": broken
         })
 
-# after all run make a json file
-with open("links.json", "w") as file:
-    json.dump(MAIN_DATA, file, indent=4)
+    # after all run make a json file
+    with open("links.json", "w") as file:
+        json.dump(MAIN_DATA, file, indent=4)
